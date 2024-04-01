@@ -4,8 +4,8 @@ function makeid(l) {
 	let char="qwertyuiopasdfghjklmnbvcxzQWERTYUIOPLKJAHSGDFMZNXBCV1029387465"
 	for(let i=0;i<l;i++){
 		res =res +char.charAt(
-			math.floor(
-				math.random()*char.length;
+			Math.floor(
+				Math.random()*char.length;
 			)
 		)
 	}
